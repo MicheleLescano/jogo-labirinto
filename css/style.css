@@ -1,0 +1,129 @@
+:root {
+    --my-color: red
+}
+
+main {
+    position: fixed;
+    width: 800px;
+    height: 600px;
+    border: 5px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+
+    
+}
+
+#tempo {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    font-size: 25pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 1;
+}
+
+#fim {
+    position: fixed;
+    font-size: 40pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:blue;
+    color: white;
+    display: none;
+}
+
+#um {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 0px;
+    left: 0px;
+    background-color: var(--my-color);
+}
+
+#dois {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    top: 0px;
+    left: 300px;
+    background-color: var(--my-color);
+}
+
+#tres {
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    top: 0px;
+    left: 550px;
+    background-color: var(--my-color);
+}
+
+#quatro {
+    position: absolute;
+    width: 100px;
+    height: 250px;
+    bottom:  0px;
+    left: 0px;
+    background-color: var(--my-color);
+}
+
+#cinco {
+    position: absolute;
+    width: 150px;
+    height: 290px;
+    bottom:  0px;
+    left:100px;
+    background-color: var(--my-color);
+}
+
+#seis {
+    position: absolute;
+    width: 160px;
+    height: 330px;
+    bottom:  0px;
+    left: 200px;
+    background-color: var(--my-color);
+}
+
+#sete {
+    position: absolute;
+    width: 210px;
+    height: 430px;
+    bottom:  0px;
+    left: 320px;
+    background-color: var(--my-color);
+}
+
+#oito {
+    position: absolute;
+    width: 270px;
+    height: 180px;
+    bottom:  0px;
+    left: 530px;
+    background-color: var(--my-color);
+}
+
+#start {
+    position:absolute ;
+    width: 20px;
+    height: 100px;
+    left: -10px;
+    top: 250px;
+    background-color: rgb(255, 0, 85);
+}
+
+#finish {
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+    right: -10px;
+    top: 400px;
+    background-color: aqua;
+}
+
