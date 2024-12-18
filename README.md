@@ -1,4 +1,4 @@
-   🌀 **Jogo Labirinto **🏆
+  ** 🌀 Jogo Labirinto 🏆**
  ---  
 Um jogo de labirinto interativo onde você precisa alcançar a saída sem tocar nas bordas do caminho.
 Desafie suas habilidades e tente vencer antes que o tempo acabe! ⏳
